@@ -1,0 +1,56 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fffefe;
+  background: url(assets/cadeado.png.png) ;
+}
+
+
+div {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(80, 78, 78, 0.1);
+  background-color: #f1f1f1;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #01010c;
+}
+
+
+button {
+  background-color: #0f72eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.5s ease;
+}
+
+
+button:hover {
+  background-color: #bb430b;
+}
+
+
+button:active {
+  background-color: #0a0d11;
+}
+
+
+div {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
